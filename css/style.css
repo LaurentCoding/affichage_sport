@@ -3,9 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* #home {
-  display: none;
-} */
+#home {
+ display: flex;
+ justify-content: center;
+}
 header{
   position: fixed;
   top: 0;
@@ -130,10 +131,10 @@ header{
 #menu-accordeon li:hover li {
  max-height: 15em;
 }
-.form {
+/* .form {
   margin-top: 20%;
   margin-left: 50%;
-}
+} */
 #nom{
   margin-top: 20%;
   text-transform: capitalize;
@@ -142,16 +143,33 @@ header{
   color: rgb(48, 41, 41);
 }
 
-.section-width {
-  margin-top: 15%;
+.section-width { 
+  margin-top: 5vh;
+  height: 95vh;
   max-width: 80%;
   margin-left: 10%;
 }
 .sport-list-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
   font-size: 4rem;
   font-weight: bold;
-  margin-left: 15rem;
-  color: red;
+  
+}
+.annee17 {
+  display: flex;  
+  background-color: rgb(37, 241, 139);
+}
+.annee18 {
+  display: flex;  
+  background-color: rgb(3, 22, 13);
+}
+.title17{
+  color:rgb(247, 16, 16);
+}
+.title18{
+  color:rgb(240, 164, 164);
 }
 .sport-wrapper {
   display: flex;
@@ -160,10 +178,16 @@ header{
   padding: 2rem;
   
 }
-.article {
+.article:nth-child(even) {
   padding: 0.5rem;
   margin: 0.2rem;
   background-color: rgb(67, 6, 180);
+  color: white;
+}
+.article:nth-child(odd) {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  background-color: rgb(25, 143, 240);
   color: white;
 }
 .sport {

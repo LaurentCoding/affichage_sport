@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* #home {
+  display: none;
+} */
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #729EBF;
+  padding: 10px;
+  box-shadow: 6px 6px 8px gray;
+  z-index: 10;
+}
+
+.myTitre{
+  position: relative;
+  left: 50rem;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.4em;
+  font-weight: bold;
+}
+.myTitre a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* Positionnement du bloc NAV Menu */
+/* Dans une colonne à gauche de la page */
+#Menu{
+  display: inline-block;
+ /*  top: 20px;
+  left: 10px; */
+}
+
+/* On enlève les puces de la liste */
+/* On centre le texte dans la colonne */
+#menu-accordeon {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 180px;
+}
+
+/* On enlève les puces devant la deuxième liste imbriquée */
+/* On applique les mêmes propriétés que le premier UL */
+#menu-accordeon ul {
+  display: flex;
+  flex-direction: column;
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+
+/* On vient mettre en forme le LI de la première liste UL */
+/* qui ne possède pas de balise A, puisqu'il e sert qu'à */
+/* VERTICALISER l'ensemble du menu. C'est le titre du MENU */
+#menu-accordeon li {
+  background-color:#729EBF; 
+  border-radius: 6px;
+  margin-bottom:2px;
+  box-shadow: 3px 3px 3px #999;
+  border:solid 1px #333A40;
+ 
+}
+
+
+/* On va créer une animation CSS qui masque le contenu du Menu */
+/* en agissant sur les Items (LI) contenu dans la sous Liste */
+/* Il s'agit de la propriété CSS transition, dont on peut faire varier la vitesse */
+#menu-accordeon li li{
+  /* On met la hauteur à 0 */
+  max-height: 0;
+  /* Cacher le dépassement */
+  overflow: hidden;
+  /* Détermine la vitesse de fermeture du menu déroulé */
+  transition: all .5s;
+  /* On enlève toute la mise en forme afin de ne voir que le titre Menu */
+  border-radius: 0;
+  background-color: #444;
+  box-shadow: none;
+  border: none;
+  margin: 0;
+}
+
+/* On met en forme les liens hypertexte des éléments A */
+#menu-accordeon a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1em;
+  
+}
+
+/* A partir d'ici, on redéfinit la mise en forme des éléments masqués */
+/* Au passage de la souris sur l'élément Menu */
+/* Chaque pseudo classe effectue une opération de reconstruction */
+/* des éléments LI A qui se déroulent au passage de la souris. */
+#menu-accordeon ul li a, #menu-accordeon li:hover li a {
+  font-size:1em
+}
+
+/* Lorsque que la souris survole ce bouton bleu */
+/* On redessine tous les éléments */
+#menu-accordeon li:hover {
+  background: #729EBF
+}
+
+#menu-accordeon li li:hover {
+  background: #999;
+}
+
+/* On applique le même BORDER RADIUS qu'à l'élément Menu */
+/* lorsque tout le menu est déroulé pour harmoniser le bloc */
+#menu-accordeon ul li:last-child {
+  border-radius: 0 0 6px 6px;
+  border:none;
+}
+
+/* On détermine la hauteur des Items qui se déroulent */
+#menu-accordeon li:hover li {
+ max-height: 15em;
+}
+.form {
+  margin-top: 20%;
+  margin-left: 50%;
+}
+#nom{
+  margin-top: 20%;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(48, 41, 41);
+}
+
+.section-width {
+  margin-top: 15%;
+  max-width: 80%;
+  margin-left: 10%;
+}
+.sport-list-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 15rem;
+  color: red;
+}
+.sport-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+  
+}
+.article {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  background-color: rgb(67, 6, 180);
+  color: white;
+}
+.sport {
+  text-align: center;
+  font-weight: bold;
+}
+.resultat {
+  text-align: center;
+  padding: 0.2rem;
+}
+

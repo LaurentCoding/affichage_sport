@@ -1,4 +1,4 @@
-export const fevrier20 = [
+let fevrier20 = [
   {
       "id": 10220,
       "Date": "01/02/2020",

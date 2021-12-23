@@ -21,15 +21,3 @@ const insertSport = (sportList, htmlContainer) => {
 }
 
 insertSport(sport, inserSport);
-
-/* window.onload = () => {
-  //on va charger tous les éléments
-  const elts = document.querySelectorAll(".accordion-element");
-  //on récupere l'element actif
-  const firstActive = document.querySelector(".accordion .active");
-  //on va chercher la balise p qui se trouve à l'interieur
-  let section = firstActive.children[1].querySelector("p");
-  //on recupere la hauteur de la section
-  let sectionHeight = section.offsetHeight + 20;
-
-} */

@@ -20,8 +20,8 @@ header{
 }
 
 .myTitre{
-  position: relative;
-  left: 50rem;
+  display: flex;
+  justify-content: center;
   font-family: 'Indie Flower', cursive;
   font-size: 2.4em;
   font-weight: bold;
@@ -113,7 +113,7 @@ header{
 /* Lorsque que la souris survole ce bouton bleu */
 /* On redessine tous les éléments */
 #menu-accordeon li:hover {
-  background: #729EBF
+  background: #729EBF;
 }
 
 #menu-accordeon li li:hover {
@@ -135,17 +135,25 @@ header{
   margin-top: 20%;
   margin-left: 50%;
 } */
+
+.debut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+  background-color: rgb(195, 231, 231);
+}
 #nom{
-  margin-top: 20%;
+  /* margin-top: 20%; */
   text-transform: capitalize;
-  text-align: center;
+/*   text-align: center; */
   font-size: 5rem;
   color: rgb(48, 41, 41);
 }
 
 .section-width { 
   margin-top: 5vh;
-  height: 95vh;
+  height: auto;
   max-width: 80%;
   margin-left: 10%;
 }
@@ -157,18 +165,37 @@ header{
   font-weight: bold;
   
 }
-.annee17 {
+.annee17, .annee18, .annee19, .annee20, .annee21 {
   display: flex;  
-  background-color: rgb(37, 241, 139);
 }
-.annee18 {
-  display: flex;  
+.annee17 {
+  background-color: rgb(37, 241, 139); 
+}
+.annee18 { 
   background-color: rgb(3, 22, 13);
+}
+.annee19 {
+  background-color: deeppink;
+}
+.annee20 {
+  background-color: lightseagreen;
+}
+.annee21 {
+  background-color: rgb(40, 77, 40);
 }
 .title17{
   color:rgb(247, 16, 16);
 }
 .title18{
+  color:rgb(240, 164, 164);
+}
+.title19{
+  color:rgb(27, 20, 20);
+}
+.title20{
+  color:rgb(105, 60, 60);
+}
+.title21{
   color:rgb(240, 164, 164);
 }
 .sport-wrapper {
@@ -177,6 +204,12 @@ header{
   flex-wrap: wrap;
   padding: 2rem;
   
+}
+.article {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
 }
 .article:nth-child(even) {
   padding: 0.5rem;
@@ -198,4 +231,21 @@ header{
   text-align: center;
   padding: 0.2rem;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #729EBF;
+  width: 100%;
+  height: 4vh;
+  z-index: 2;
+}
+footer p {
+  color: rgb(59, 52, 52);
+}
+
+
+
 

@@ -182,6 +182,22 @@ let decembre21 = [
       "Km": 38.87,
       "Temps": "1h12",
       "Moyenne": 32.39
+  },
+  {
+      "id": 241221,
+      "Date": "26/12/2021",
+      "Sport": "velo",
+      "Km": 28.86,
+      "Temps": "0h54",
+      "Moyenne": 32.07
+  },
+  {
+      "id": 251221,
+      "Date": "27/12/2021",
+      "Sport": "velo",
+      "Km": 32.86,
+      "Temps": "1h00",
+      "Moyenne": 32.86
   }
   
 ]

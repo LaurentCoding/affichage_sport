@@ -9,8 +9,8 @@ let juillet20 = [
   },
   {
       "id": 20720,
-      "Date": 44014,
-      "Sport": "02/07/2020",
+      "Date": "02/07/2020",
+      "Sport": "marche",
       "Km": 4.59,
       "Temps": "0h50",
       "Moyenne": 5.51

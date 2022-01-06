@@ -146,7 +146,7 @@ let aout18 = [
     {
         "id": 190818,
         "Date": "15/08/2018",
-        "Sport": "marche",
+        "Sport": "velo",
         "Km": 30.76,
         "Temps": "1h34",
         "Moyenne": 19.49

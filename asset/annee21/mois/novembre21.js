@@ -49,7 +49,7 @@ let novembre21 = [
 },
 {
     "id": 71121,
-    "Date": "0/11/2021",
+    "Date": "07/11/2021",
     "Sport": "velo",
     "Km": 27.4,
     "Temps": "0h52",

@@ -137,11 +137,19 @@ header{
 } */
 
 .debut {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 96vh;
   background-color: rgb(195, 231, 231);
+}
+.debut img{
+  height: 88vh;
+  margin-top: 9vh;
+}
+.debut h1 {
+  position: absolute;
 }
 #nom{
   /* margin-top: 20%; */
@@ -149,6 +157,7 @@ header{
 /*   text-align: center; */
   font-size: 5rem;
   color: rgb(48, 41, 41);
+  transform: rotate(-20deg);
 }
 
 .section-width { 
@@ -156,6 +165,9 @@ header{
   height: auto;
   max-width: 80%;
   margin-left: 10%;
+}
+.center {
+  width: 80%;
 }
 .sport-list-title {
   display: flex;
@@ -165,7 +177,7 @@ header{
   font-weight: bold;
   
 }
-.annee17, .annee18, .annee19, .annee20, .annee21 {
+.annee17, .annee18, .annee19, .annee20, .annee21, .annee22 {
   display: flex;  
 }
 .annee17 {
@@ -183,6 +195,9 @@ header{
 .annee21 {
   background-color: rgb(40, 77, 40);
 }
+.annee22 {
+  background-color: rgb(151, 204, 247);
+}
 .title17{
   color:rgb(247, 16, 16);
 }
@@ -198,12 +213,20 @@ header{
 .title21{
   color:rgb(240, 164, 164);
 }
+.title22{
+  color:rgb(240, 164, 164);
+}
 .sport-wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 2rem;
   
+}
+.sport {
+  width: 8rem;
+  text-align: center;
+  font-weight: bold;
 }
 .article {
   display: flex;
@@ -223,10 +246,7 @@ header{
   background-color: rgb(25, 143, 240);
   color: white;
 }
-.sport {
-  text-align: center;
-  font-weight: bold;
-}
+
 .resultat {
   text-align: center;
   padding: 0.2rem;

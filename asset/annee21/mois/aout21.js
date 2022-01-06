@@ -75,7 +75,7 @@ let aout21 = [
     "id": 100821,
     "Date": "10/08/2021",
     "Sport": "velo",
-    "Km":"48.6",
+    "Km": 48.6,
     "Temps": "1h35",
     "Moyenne": 30.69
 },

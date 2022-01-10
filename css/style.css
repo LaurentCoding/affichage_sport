@@ -145,16 +145,13 @@ header{
   background-color: rgb(195, 231, 231);
 }
 .debut img{
-  height: 88vh;
-  margin-top: 9vh;
-}
-.debut h1 {
-  position: absolute;
+  height: 100vh;
+  margin-bottom: 3vh;
 }
 #nom{
-  /* margin-top: 20%; */
+  position: absolute;
+  margin-left: -50vh;
   text-transform: capitalize;
-/*   text-align: center; */
   font-size: 5rem;
   color: rgb(48, 41, 41);
   transform: rotate(-20deg);
